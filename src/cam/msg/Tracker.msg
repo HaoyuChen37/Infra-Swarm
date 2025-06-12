@@ -1,0 +1,1 @@
+LightInfo[] lights

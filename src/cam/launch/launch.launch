@@ -1,0 +1,15 @@
+<!-- launchfile.launch -->
+<launch>
+   <!-- 启动相机节点 -->
+  <node name="cam1" pkg="cam2" type="cam1.py" output="screen"/>
+  <node name="cam2" pkg="cam2" type="cam2.py" output="screen"/> 
+  <node name="cam3" pkg="cam2" type="cam3.py" output="screen"/>
+  <node name="cam4" pkg="cam2" type="cam4.py" output="screen"/> 
+  <!-- <node name="tracker" pkg="cam2" type="tracker_node.py" output="screen"/>  -->
+  <node name="tracker" pkg="cam2" type="tracker_log.py" output="screen"/> 
+  <!-- <启动控制小车的节点 > -->
+  <!-- <node name="flocking_controller" pkg="cam2" type="control1.py" output="screen"/>  -->
+  <node name="flocking_controller" pkg="cam2" type="flocking_control.py" output="screen"/> 
+  <!-- <node name="flocking_controller" pkg="cam2" type="control_d.py" output="screen"/>  -->
+  
+</launch>

@@ -1,0 +1,19 @@
+ <?xml version="1.0"?>
+<launch>
+    <!-- 启动所有解码器节点 -->
+    <node name="signal_decoder_1" pkg="com" type="decode.py" output="screen">
+        <param name="tracker_id" value="1"/>
+    </node>
+    
+    <node name="signal_decoder_2" pkg="com" type="decode.py" output="screen">
+        <param name="tracker_id" value="2"/>
+    </node>
+    
+    <node name="signal_decoder_3" pkg="com" type="decode.py" output="screen">
+        <param name="tracker_id" value="3"/>
+    </node>
+    
+    <node name="signal_decoder_4" pkg="com" type="decode.py" output="screen">
+        <param name="tracker_id" value="4"/>
+    </node>
+</launch>

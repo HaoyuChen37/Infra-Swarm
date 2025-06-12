@@ -1,0 +1,67 @@
+# 忽略ROS编译生成的文件
+build/
+install/
+devel/
+log/
+
+# 忽略Python编译生成的文件
+*.pyc
+__pycache__/
+
+# 忽略C++编译生成的文件
+*.o
+*.so
+*.so.*
+*.a
+*.la
+*.lo
+
+# 忽略临时文件
+*.tmp
+*.swp
+*.swo
+*.bak
+*~
+
+# 忽略VS Code生成的文件
+.vscode/
+
+# 忽略Eclipse生成的文件
+.project
+.cproject
+.settings/
+
+# 忽略CMake生成的文件
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+
+# 忽略Doxygen生成的文件
+doxygen/html/
+doxygen/latex/
+doxygen/xml/
+
+# 忽略测试生成的文件
+test_results/
+
+# 忽略ROS特定的文件
+*.rosinstall
+*.rosinstall2
+*.rosinstall3
+*.rosinstall4
+*.rosinstall5
+*.rosinstall6
+*.rosinstall7
+*.rosinstall8
+*.rosinstall9
+*.rosinstall10
+
+# 忽略ROS参数文件生成的文件
+*.yaml.bak
+
+# 忽略ROS包的配置文件
+*.catkin_workspace
+
+# 忽略运行产生的数据
+/Data
+/Camera
